@@ -12,7 +12,7 @@ class Resultado extends StatefulWidget {
 
 class _ResultadoState extends State<Resultado> {
   void _voltar() {
-    Navigator.push(context, MaterialPageRoute(builder: (context) => Home()));
+    Navigator.pop(context );
   }
 
   @override
